@@ -89,7 +89,8 @@ public class AdvancedAstrologyTest {
         MockInOut mio = new MockInOut("");
         AdvancedAstrology.christmasTree(4);
         String out = sanitize(mio.getOutput());
-        assertTrue("When calling christmasTree(4) is called, the first line should contain 3 spaces and then one star, make sure there's not too much or too little spaces",
+        assertTrue(
+                "When calling christmasTree(4) is called, the first line should contain 3 spaces and then one star, make sure there's not too much or too little spaces",
                 out.startsWith("   *"));
 
         mio.close();
@@ -115,14 +116,14 @@ public class AdvancedAstrologyTest {
         String out = sanitize(mio.getOutput());
         assertEquals("You printed incorrectly when christmasTree(7).",
                 "      *\n"
-                + "     ***\n"
-                + "    *****\n"
-                + "   *******\n"
-                + "  *********\n"
-                + " ***********\n"
-                + "*************\n"
-                + "     ***\n"
-                + "     ***\n",
+                        + "     ***\n"
+                        + "    *****\n"
+                        + "   *******\n"
+                        + "  *********\n"
+                        + " ***********\n"
+                        + "*************\n"
+                        + "     ***\n"
+                        + "     ***\n",
                 out);
 
         mio.close();
