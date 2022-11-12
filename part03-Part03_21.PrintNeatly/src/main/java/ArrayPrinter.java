@@ -16,11 +16,24 @@ public class ArrayPrinter {
             numbers = numbers + array[i];
             if (i != array.length - 1) {
                 numbers = numbers + ", ";
-
             }
             i++;
         }
 
         System.out.println(numbers);
     }
+
+    // public static void printNeatly(int[] array) {
+    // // Write some code in here
+    // int index = 0;
+    // while (index < array.length) {
+    // System.out.print(array[index]);
+    // if (index < (array.length - 1)) {
+    // System.out.print(", ");
+    // }
+
+    // index = index + 1;
+    // }
+    // System.out.println();
+    // }
 }

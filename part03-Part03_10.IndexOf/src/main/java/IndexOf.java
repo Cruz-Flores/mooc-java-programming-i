@@ -27,5 +27,16 @@ public class IndexOf {
                 System.out.println(toSearch + " is at index " + i);
             }
         }
+
+        // int searching = Integer.valueOf(scanner.nextLine());
+
+        // int index = 0;
+        // while (index < list.size()) {
+        // if (list.get(index) == searching) {
+        // System.out.println(searching + " is at index " + index);
+        // }
+
+        // index++;
+        // }
     }
 }

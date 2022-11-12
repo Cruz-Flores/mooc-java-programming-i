@@ -23,7 +23,20 @@ public class OnlyTheseNumbers {
 
         for (int i = star; i <= end; i++) {
             System.out.println(numbers.get(i));
+
         }
+
+        // System.out.print("From where? ");
+        // int lowerLimit = Integer.valueOf(scanner.nextLine());
+
+        // System.out.print("To where? ");
+        // int upperLimit = Integer.valueOf(scanner.nextLine());
+
+        // while (lowerLimit <= upperLimit) {
+        // int number = numbers.get(lowerLimit);
+        // System.out.println(number);
+        // lowerLimit = lowerLimit + 1;
+        // }
 
     }
 }

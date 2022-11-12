@@ -28,5 +28,16 @@ public class GreatestInList {
         }
 
         System.out.println("The greatest number: " + max);
+
+        // int biggest = list.get(0);
+        // int index = 0;
+        // while (index < list.size()) {
+        // if(biggest < list.get(index)) {
+        // biggest = list.get(index);
+        // }
+
+        // index++;
+        // }
+        // System.out.println("The greatest number: " + biggest);
     }
 }

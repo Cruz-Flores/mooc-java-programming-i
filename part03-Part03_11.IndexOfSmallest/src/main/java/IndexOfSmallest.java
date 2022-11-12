@@ -32,6 +32,16 @@ public class IndexOfSmallest {
             }
         }
 
+        // int smallest = list.get(0);
+        // int index = 0;
+        // while (index < list.size()) {
+        // if (list.get(index) < smallest) {
+        // smallest = list.get(index);
+        // }
+
+        // index++;
+        // }
+
         for (int i = 0; i < list.size(); i++) {
             if (smallest == list.get(i)) {
                 indexList.add(i);

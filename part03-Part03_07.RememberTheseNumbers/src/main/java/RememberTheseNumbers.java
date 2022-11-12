@@ -21,5 +21,11 @@ public class RememberTheseNumbers {
             System.out.println(numbers.get(i));
         }
 
+        int i = 0;
+        while (i < numbers.size()) {
+            System.out.println(numbers.get(i));
+            i++;
+        }
+
     }
 }

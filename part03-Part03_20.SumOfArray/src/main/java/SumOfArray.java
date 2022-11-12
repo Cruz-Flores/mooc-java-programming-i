@@ -17,4 +17,13 @@ public class SumOfArray {
         }
         return sum;
     }
+
+    // public static int sumOfNumbersInArray(int[] array) {
+    // // Write some code here
+    // int sum = 0;
+    // for (int num : array) {
+    // sum = sum + num;
+    // }
+    // return sum;
+    // }
 }

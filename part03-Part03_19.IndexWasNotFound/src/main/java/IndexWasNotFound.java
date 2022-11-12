@@ -37,5 +37,21 @@ public class IndexWasNotFound {
             System.out.println(searching + " was not found.");
         }
     }
+    // en mi solucion solo se muestra si se encontro o no, en este metodo se
+    // indica en la consola cada vez que se encuentra en el array
+    // int index = 0;
+    // boolean found = false;
+    // while (index < array.length) {
+    // if (array[index] == searching) {
+    // System.out.println(searching + " is at index " + index + ".");
+    // found = true;
+    // }
+
+    // index++;
+    // }
+
+    // if (!found) {
+    // System.out.println(searching + " was not found.");
+    // }
 
 }

@@ -11,6 +11,12 @@ public class PrintThrice {
         String word = scanner.nextLine();
         System.out.println(word + word + word);
 
+        // System.out.print("Give a word: ");
+        // String word = scanner.nextLine();
+
+        // System.out.println(""); // empty line
+        // System.out.println(word + word + word);
+
     }
 
 }

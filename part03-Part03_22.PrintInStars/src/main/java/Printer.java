@@ -26,4 +26,19 @@ public class Printer {
         return stars;
     }
 
+    // public static void printArrayInStars(int[] array) {
+    // // Write some code in here
+    // for (int stars : array) {
+    // printStars(stars);
+    // System.out.println();
+    // }
+    // }
+
+    // public static void printStars(int howMany) {
+    // while (howMany > 0) {
+    // System.out.print("*");
+    // howMany = howMany - 1;
+    // }
+    // }
+
 }

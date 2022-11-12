@@ -27,6 +27,7 @@ public class AverageOfAList {
         }
 
         double average = (double) sum / list.size();
+        // double average = (1.0 * sum / list.size())
 
         System.out.println("Average: " + average);
 
