@@ -21,10 +21,13 @@ public class RepeatingBreakingAndRemembering {
 
         while (true) {
             int number = Integer.valueOf(scanner.nextLine());
-            if (number > 0) {
-                sum = sum + number;
-                numOfNumbers = numOfNumbers + 1;
+
+            if (number == -1) {
+                break;
             }
+
+            sum = sum + number;
+            numOfNumbers = numOfNumbers + 1;
 
             if (number % 2 == 0) {
                 even = even + 1;
@@ -34,9 +37,6 @@ public class RepeatingBreakingAndRemembering {
                 odd = odd + 1;
             }
 
-            if (number == -1) {
-                break;
-            }
         }
 
         double average = (double) sum / numOfNumbers;
